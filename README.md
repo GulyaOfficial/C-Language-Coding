@@ -1,2 +1,2 @@
 # C-Language-Coding
-Meant for progress tracking, nothing special or important
+Meant for progress tracking, nothing special or important.
