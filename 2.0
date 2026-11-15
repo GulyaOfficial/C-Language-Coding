@@ -1,0 +1,26 @@
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void) {
+
+	int amount, twenty, twenty2, ten, ten2, five, five2, one;
+
+	printf("Enter a dollar amount: ");
+	scanf("%d", &amount);
+
+	twenty = amount / 20;
+	twenty2 = amount - (twenty * 20);
+	ten = twenty2 / 10;
+	ten2 = twenty2 - (ten * 10);
+	five = ten2 / 5;
+	one = ten2 - (five * 5);
+
+
+	printf("\n$20 bills: %d\n", twenty);
+	printf("$10 bills: %d\n", ten);
+	printf("$5 bills: %d\n", five);
+	printf("$1 bills: %d\n", one);
+
+	return 0;
+}
